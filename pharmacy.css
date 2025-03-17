@@ -1,0 +1,79 @@
+.logo h1 {
+  text-align:center;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  margin-left: 450px;
+ }
+
+ .logo img{
+  width: 150px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 40px;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #146A5D;
+  height: 50px;;
+}
+
+.pharmacy-list {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pharmacy {
+    display:grid;
+    background-color: #ddf4ed;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .pharmacy img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .pharmacy h3 {
+    color: #b4100d;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pharmacy h6 {
+    color: #ea302d;
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+  }
+
+  .pharmacy p {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .locate-btn {
+    background-color: rgb(236, 177, 96);
+    color: #8d1010;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-color: #000;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #map {
+    height: 500px;
+    margin-top: 50px;
+  }
+  

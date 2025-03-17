@@ -1,0 +1,68 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      .logo h1 {
+        text-align:center;
+        font-family: 'Noto Sans', sans-serif;
+        color: #ffffff;
+        margin-left: 150px;
+       }
+
+      .logo img{
+        width: 150px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        height: 40px;
+        
+      }
+      .logo{
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #146A5D;
+        height: 50px;;
+      }
+
+
+      .tip {
+        background-color: #ddf4ed;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+      }
+
+      .tip img {
+        width: 150px;
+        margin-right: 20px;
+        border-radius: 5px;
+      }
+
+      .tip h2 {
+        color: #A94442;
+      }
+
+      .tip p {
+        color: #666;
+      }
+
+      .back-button {
+  background-color:#146A5D;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 10px;
+  
+}

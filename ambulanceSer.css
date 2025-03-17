@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{    
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 72%;
+    background-color: #E8F1FF;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.header{
+    padding: 2rem 6%;
+    position: fixed;
+    width:auto;
+    top: 20px; left: 10px; right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #146A5D;
+    border-radius: 20px;
+    height: 68px;
+}
+
+.header .logo img{
+    border-radius: 10px;
+    width: 203px;
+    height: 40px;
+}
+
+.header h1{
+    color: #ffffff;
+    text-align: left;
+    font: 700 31px "Inter", sans-serif;
+    position: fixed;
+    margin-left: 550px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ambulance_services{
+    width: 687px;
+    height: 502px;
+    border-radius: 84px;
+    position: fixed;
+    left: 52px;
+    top: 155px;
+}
+
+.callno{
+    color: #146A5D;
+    margin-left: 736px;
+    margin-top: -500px;
+    font-family: "Inter", sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.rectangle{
+  width: 241px;
+  height: 55px;
+  align-items: center;
+  background: #F3D6AC;
+  margin-bottom: 340px;
+  margin-left: -240px;
+  color: #BD1C2C;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 46px;
+  border: 1px solid #000;
+}
+
+.rectangle1{
+    background: #e8f1ff;
+    border-radius: 29px;
+    border-style: solid;
+    border-color: #146a5d;
+    border-width: 2px;
+    width: 529px;
+    height: 339px;
+    position: relative;
+    margin-left: -350px;
+    margin-top: 150px ;
+}
+
+.heading{
+  color: #146A5D;
+  text-align: left;
+  font: 600 23px "Inter", sans-serif;
+  position: relative;
+  text-align: center;
+  font-style: normal;
+  margin-top: 10px;
+}
+    
+h3{
+   color: #BD1C2C;
+   margin-left: 63px;
+   margin-top: 10px;
+   font-family: "Inter", sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.ambulance-btn {
+    width: 176px;
+    height: 21px;
+    background: #F3D6AC;
+    border: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 73px;
+    color: #1E1E1E;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.ambulance-btn01 {
+    width: 114px;
+    height: 21px;
+    background: #F3D6AC;
+    border: 1px solid #000;
+    text-align: center;
+    color: #BD1C2C;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 40px;
+   
+}
+
+.btn{
+    background: #146A5D;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 328px;
+    height: 44px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    margin-left: -40px;
+  }
+  @media only screen and (max-width: 1250px) {
+    body {
+        margin-top: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ambulance_services {
+        width: 500px; 
+        height: auto;
+        position: static;
+    }
+
+    .callno {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 60px;
+    }
+
+    .rectangle {
+        margin: 20px 0;
+    }
+
+
+    .row {
+        flex-direction: column;
+    }
+
+    .rectangle1 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .heading {
+        margin-top: 20px;
+    }
+
+    h3 {
+        margin-left: 20px;
+    }
+
+    .ambulance-btn,
+    .ambulance-btn01 {
+        margin: 10px 0 0 30px;
+    }
+
+    .btn {
+        margin: 20px 0;
+        margin-left: 50px;
+    }
+
+
+}
+
+
+@media (min-width:1250px) and (max-width: 1300px){
+    body {
+        margin-top: 10%;
+    
+       
+    }
+    
+    .header h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .ambulance_services {
+        width: 70%; 
+        height: 450px;
+        position: static;
+    }
+    
+    .callno {
+    
+        margin-top: -650px;
+        font-family: "Inter", sans-serif;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: -30;
+        
+    }
+    
+
+    .row {
+        flex-direction: column;
+    }
+    .rectangle{
+        margin-left: 750px;
+        margin-top: -10px;
+    
+    }
+    
+    .rectangle1 {
+        width: 380px;
+        height: 389px;
+        
+        margin-left: -100px;
+        margin-top: 250px ;
+    }
+    
+    .heading {
+        margin-top: 20px;
+    }
+    
+    h3 {
+        margin-left: 20px;
+    }
+    
+    .ambulance-btn,
+    .ambulance-btn01 {
+        margin: 10px 0 0 30px;
+    }
+    
+    .btn {
+        margin: 200px 0;
+        margin-left: 60px;
+    }
+    
+    }
+
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pharmacies Locator</title>
+<link rel="stylesheet" type="text/css" href="pharmacy.css">
+<script>
+  function showMap(location) {
+    // Create a Google Maps link with the specified location
+    const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`;
+    
+    window.open(mapsLink, '_blank');
+  }
+</script>
+</head>
+<body>
+  <div class="logo">
+  <img src="Logo2a.png" alt="logo1"/>
+  <div>
+    <h1>PHARMACIES</h1>
+  </div>
+</div>
+<div class="pharmacy-list">
+    <div class="pharmacy">
+      <img src="img/ph2.jpg">
+      <h3>Mediland Private Pharmacy</h3>
+      <p class="location">104 Main St, Akkaraipattu <br> 32400, Srilanka <br> <h6>+94 7522222940</h6></p>
+      <button class="locate-btn" onclick="showMap('104 Main St, Akkaraipattu 32400')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img/ph1.jpg" alt="Pharmacy 2">
+      <h3>Mediland Private Pharmacy</h3>
+      <p class="location">CR3J+7P9, Cassim Rd, <br> Kalmunai 32300, Srilanka <br> <h6>+94 6722222236</h6></p>
+      <button class="locate-btn" onclick="showMap('CR3J+7P9, Cassim Rd, Kalmunai 32300, Srilanka')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img/ph3.jpg" alt="Pharmacy 2">
+      <h3>Lanka Pharmacy</h3>
+      <p class="location">7MXQ+J46, <br> Ampara, Srilanka <br> <h6>+94 7777112594</h6></p>
+      <button class="locate-btn" onclick="showMap('7MXQ+J46, Ampara, Srilanka')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img/ph4.jpg" alt="Pharmacy 2">
+      <h3>Wickrama Pharmacy</h3>
+      <p class="location">7MRF+834 Near thae bus stand, Dudli Senanayake St, <br> Ampara, Srilanka <br><h6>+94 778084867</h6> </p>
+      <button class="locate-btn" onclick="showMap('7MRF+834 Near the bus stand, Dudli Senanayake Street, Ampara')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img\ph5.webp" alt="Pharmacy 2">
+      <h3>Prabodha Pharmacy</h3>
+      <p class="location">7MRG+M53, Pandukabaya Mawatha, <br> Ampara, Srilanka <br><h6>+94 632223606</h6> </p>
+      <button class="locate-btn" onclick="showMap('7MRG+M53, Pandukabaya Mawatha, Ampara')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img/ph6.jpg" alt="Pharmacy 2">
+      <h3>Lanka Pharmacy</h3>
+      <p class="location">No 70, Ampara Rd <br> Sammanthurai, Srilanka <br> <h6>+94 776578222</h6></p>
+      <button class="locate-btn" onclick="showMap('No 70 Ampara Rd, Sammanthurai')">LOCATE</button>
+    </div>
+    <div class="pharmacy">
+      <img src="img/ph7.jpg" alt="Pharmacy 2">
+      <h3>State Phamaceuticals Coorparation </h3>
+      <p class="location">7MRH+GR3, <br> Ampara, Srilanka <br>   <br></p>
+      <button class="locate-btn" onclick="showMap('7MRH+GR3, Ampara')">LOCATE</button>
+    </div>
+    <!-- Add more pharmacies here -->
+  </div>
+  <div id="map"></div>
+</body>
+  
