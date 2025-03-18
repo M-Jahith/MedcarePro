@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.MeDCarE medical website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!--header section start-->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <img src="img/Logo2a.png"></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#review">Review</a>
+            <a href="chat\chat.php"> <i class="far fa-comments"></i>Chat</a>
+            <a href="account\login.php"> <i class="far fa-user"></i></a> 
+
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+        <!-- header section ends-->
+
+
+        <!-- home section start-->
+
+        <section class="home" id="home">
+            <div class="image">
+                <img src="img/rtrt.png" alt="img1">
+            </div>
+
+            <div class="content">
+                <h3>Welcome To</h3> <h4>Dr.MeDCarE</h4>
+                <a href="#services" class="btn">Get Start</a>
+            </div>
+
+        </section>
+
+        <section class="home2" id="home2">
+            <div class="content2">
+                <h3>"Where The Art Of Medicine Is Loved <br> There Is Also Love For Humanity"</h3>
+            </div>
+
+            <div class="image2">
+                <img src="img/240_F_427321670_LOINhQxC9EckA0Rx1WHHab7O8y9mCNrO.png" alt="img2">
+            </div>
+            
+        </section>
+
+        <!--header section ends-->
+
+        <!--services section start-->
+
+        <section class="services" id="services">
+
+
+            <div class="service">
+
+                <img src="img/home care doctor.jpeg" alt="img3">
+                <p><br>Call a Doctor at home and get medicare</p>
+                <a href="Doctor Appointment/dappointment.php" class="btn">House call Doctor</a>
+
+          </div>
+
+          <div class="service">
+
+            <img src="img/home care nurse.jpeg" alt="img3">
+            <p><br>get a nurse to provide medical care at home</p>
+            <a href="Nurse Appointment\Nappointment.php" class="btn">Health Aide Nurse</a>
+
+      </div>
+
+
+            <div class="service">
+
+                  <img src="img/image3.png" alt="img3">
+                  <p><br>Get Medical Tips To Connect With Healthier</p>
+                  <a href="Ambulance\Heath_tips.html" class="btn">Get Medical Tips</a>
+
+            </div>
+
+            <div class="service">
+
+                <img src="img/image4.png" alt="img4">
+                <p>Get Your Medicines Througth Your Home In Nearest Pharmacy</p>
+                <a href="Ambulance\pharmacy.html" class="btn">Find A Pharmacy</a>
+
+            </div>
+
+            <div class="service">
+
+                <img src="img/image5.png" alt="img5">
+                <p><br>Get An Emergency Ambulance To Your Place</p>
+                <a href="Ambulance\ambulance_services.php" class="btn">Get Ambulance</a>
+
+            </div>
+
+            <div class="service">
+
+                <img src="img/image6.png" alt="img6">
+                <p><br>Check My Bot Mass Unit Easier on one step</p>
+                <a href="bmi.html" class="btn">Check My BMI</a>
+
+            </div>
+
+            <div class="service">
+
+                <img src="img/image7.png" alt="img7">
+                <p><br>Donate Blood And Save A live with curier life</p>
+                <a href="Blooddonation_services.html" class="btn">Donate Blood</a>
+
+            </div> 
+
+            <div class="service">
+
+                <img src="img/image8.jpg" alt="img8">
+                <p><br>Get Any Helps From Us with responsible information</p>
+                <a href="chat\chat.php" class="btn">Contact with Us</a>
+
+            </div>
+
+        </section>
+
+        <!--services section ends-->
+
+
+        <!--login section starts-->
+
+        <section class="about" id="about">
+            <div class="aboutus">
+
+                <div class="box">
+                    <p>Our Services Are Well Demonstrated By Many Experienced Doctors</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="box">
+
+                    <p>Join With Us To Get Our Services Free</p>
+                    <br>
+                    <a href="account\signup.php" class="btn">Register Now</a>
+                    <a href="account\login.php" class="btn">login</a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--login section ends-->
+
+
+
+        <!--review section starts-->
+
+        <section class="review">
+            <h2>Customer Reviews</h2>
+            <div class="container" id="review-container">
+                <!-- Reviews will be added here dynamically -->
+            </div>
+            <form id="review-form">
+                <input type="text" id="user-name" placeholder="Your Name" required>
+                <textarea id="user-review" placeholder="Your Review" required></textarea>
+        
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+        </section>
+        
+
+        <!--review section ends-->
+
+ 
+        <!--footer section start-->
+
+        <section class="mainfooter">
+            <div class="box-container">
+
+                <div class="footer">
+                    <h3>Quick Links</h3>
+                    <a href="#home"> <i class="fas fa-chevron-right"></i>Home</a>
+                    <a href="#services"> <i class="fas fa-chevron-right"></i>Services</a>
+                    <a href="#about"> <i class="fas fa-chevron-right"></i>About</a>
+                    <a href="#review"> <i class="fas fa-chevron-right"></i>Review</a>
+                    <a href="#login"> <i class="fas fa-chevron-right"></i>Login</a>
+                </div>
+
+                <div class="footer">
+                    <h3>Quick services</h3>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>Medical Tips</a>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>Pharmacy</a>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>Ambulance</a>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>BMI</a>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>Blood</a>
+                    <a href="#"> <i class="fas fa-chevron-right"></i>Chat</a>
+                </div>
+
+                <div class="footer">
+                    <h3>Contact Info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i>+94 757568963</a>
+                    <a href="#"> <i class="fas fa-phone"></i>+94 777888999</a>
+                    <a href="#"> <i class="fas fa-envelope"></i>dr.medcare@gmail.com</a>
+                    <a href="#"> <i class="fas fa-envelope"></i>medcare@gmail.com</a>
+                    <a href="#"> <i class="fas fa-map-location"></i>Ampara, SriLanka </a>
+                </div>
+
+                <div class="footer">
+                    <h3>Follow Us</h3>
+                    <a href="#"> <i class="fab fa-facebook"></i>faceebook</a>
+                    <a href="#"> <i class="fab fa-twitter"></i>twitter</a>
+                    <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+                    <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+                    <a href="#"> <i class="fab fa-pinterest"></i>pinterest</a>
+                </div>
+
+            </div>
+
+            <div class="action">
+                <h4>This Website Only For Our Project Demo</h4>
+            </div>
+
+        </section>
+
+        <!--footer section end-->
+
+
+
+    <!--custom js file link-->
+    <script src="script.js"></script>
+    
+</body  >
+</html>
